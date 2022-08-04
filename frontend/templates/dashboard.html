@@ -1,0 +1,105 @@
+<html>
+  
+  <head>
+    <title>JPAS v1</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- <link rel="icon" href= "{{ url_for('static',filename='robot.png') }}" type="image/png"> -->
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.0/font/bootstrap-icons.css">
+    
+    <link rel= "stylesheet" type= "text/css" href= "{{ url_for('static',filename='styles.css') }}">
+    <!-- <link rel= "stylesheet" type= "text/css" href= "../static/styles.css"> -->
+
+  </head>
+  <body>
+    <header class="container-fluid">
+        <h5 class="display-4 align-middle">LinkedIn</h5>
+        <h1 class="display-2 align-middle">Job Posting Analysis and Summary</h1>
+    </header>
+    <main class="container">
+
+        <section class="title">
+          <div class="row">
+            <div class="col">
+              <h3 class="display-5">Dashboard</h3>
+            </div>
+
+            <div class="col d-flex">
+
+              <div class="card">
+                <div class="card-body companies">
+                  <h5 class="card-title">Total Companies</h5>
+                  <h4 class="card-title">{{company_count}}</h4>
+                </div>
+              </div>
+
+              <div class="card">
+                <div class="card-body">
+                  <h5 class="card-title">Total Jobs</h5>
+                  <h4 class="card-title">{{jobs_count}}</h4>
+                </div>
+              </div>
+
+              <div class="card">
+                <div class="card-body">
+                  <h5 class="card-title">Total Jobs</h5>
+                  <h4 class="card-title">{{jobs_in_month}}</h4>
+                </div>
+              </div>
+
+            </div>
+          </div>
+        </section>
+
+        <section class="graph">
+          <h3 class="display-5">Top 10 Job postings</h3>
+          <center>
+            <embed type="image/svg+xml" src={{company_jobs|safe}} style='max-width:50vw'/>
+          </center>
+            
+        </section>
+        <section>
+          <h3 class="display-5">Job positions available</h3>
+          <center>
+            <embed type="image/svg+xml" src={{job_type|safe}} style='max-width:50vw'/>
+          </center>
+        </section>
+        
+        <section>
+          <h3 class="display-5">Seniority level of available positions</h3>
+          <center>
+            <embed type="image/svg+xml" src={{job_seniority_level|safe}} style='max-width:50vw'/>
+          </center>
+        </section>
+
+        <section>
+          <h3 class="display-5">Top 10 Job titles</h3>
+          <center>
+            <embed type="image/svg+xml" src={{job_title|safe}} style='max-width:50vw'/>
+          </center>
+        </section>
+        
+        <section>
+          <h3 class="display-5">Top 10 hiring locations</h3>
+          <center>
+            <embed type="image/svg+xml" src={{job_location|safe}} style='max-width:50vw'/>
+          </center>
+        </section>
+        <section>
+          <h3> Displaying the Kmeans Clusting</h3>
+          <center>
+            <!--<embed type="image" src={{job_location|safe}} style='max-width:50vw'/> -->
+          </center>
+        </section>
+        
+    </main>
+    <img src="{{ url_for('static',filename='cluster.jpeg') }}" alt="User Image">
+
+    <script src="https://cdn.jsdelivr.net/npm/masonry-layout@4.2.2/dist/masonry.pkgd.min.js" integrity="sha384-GNFwBvfVxBkLMJpYMOABq3c+d3KnQxudP/mGPkzpZSTYykLBNsZEnG2D9G/X/+7D" crossorigin="anonymous" async></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    
+  </body>
+</html>
