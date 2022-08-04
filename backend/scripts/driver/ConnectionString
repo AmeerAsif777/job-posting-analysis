@@ -1,0 +1,22 @@
+use admin
+db.createUser(
+  {
+    user: "MinerLeague",
+    pwd: "MinerLeague",
+    roles: [ { role: "userAdminAnyDatabase", db: "admin" } ]
+  }
+)
+
+
+
+
+mongo --port 27017 -u "MinerLeague" -p "MinerLeague" \
+  --authenticationDatabase "admin"
+
+
+
+
+  Connection string
+
+
+  mongodb://MinerLeague:MinerLeague@localhost:27017

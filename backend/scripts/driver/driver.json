@@ -1,0 +1,11 @@
+{
+   "database":{
+        "host":"localhost",
+        "user":"MinerLeague",
+        "password":"MinerLeague",
+	    "port":"27017",
+        "db":"mongodb"
+    },
+  "execution_type": "parallel",
+  "log_file":"C:/Users/MEETHU/Desktop/LinkedInProject/logs/etlprocess_{datetime}.log"
+  }
