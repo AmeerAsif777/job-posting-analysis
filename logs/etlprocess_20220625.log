@@ -1,0 +1,62 @@
+06/25/2022 02:05:51 PM INFO :{'database': {'host': 'localhost', 'user': 'Vijeta109', 'password': 'Vijeta123', 'port': '27017', 'db': 'mongodb'}, 'execution_type': 'parallel', 'log_file': '/Users/MEETHU/Desktop/LinkedInProject/logs/etlprocess_20220625.log', 'process_timestamp': '20220625140551', 'path': 'driver.json'}
+06/25/2022 02:05:51 PM INFO :Creating Database connection
+06/25/2022 02:05:51 PM INFO :Connection Successful
+06/25/2022 02:12:13 PM INFO :{'database': {'host': 'localhost', 'user': 'Vijeta109', 'password': 'Vijeta123', 'port': '27017', 'db': 'mongodb'}, 'execution_type': 'parallel', 'log_file': '/Users/MEETHU/Desktop/LinkedInProject/logs/etlprocess_20220625.log', 'process_timestamp': '20220625141213', 'path': 'driver.json'}
+06/25/2022 02:12:13 PM INFO :Creating Database connection
+06/25/2022 02:12:13 PM INFO :Connection Successful
+06/25/2022 02:24:50 PM INFO :{'database': {'host': 'localhost', 'user': '', 'password': '', 'port': '27017', 'db': 'mongodb'}, 'execution_type': 'parallel', 'log_file': '/Users/MEETHU/Desktop/LinkedInProject/logs/etlprocess_20220625.log', 'process_timestamp': '20220625142450', 'path': 'driver.json'}
+06/25/2022 02:24:50 PM INFO :Creating Database connection
+06/25/2022 02:24:50 PM INFO :Connection Error
+06/25/2022 02:31:57 PM INFO :{'database': {'host': 'localhost', 'user': 'MinerLeague', 'password': 'MinerLeague', 'port': '27017', 'db': 'mongodb'}, 'execution_type': 'parallel', 'log_file': '/Users/MEETHU/Desktop/LinkedInProject/logs/etlprocess_20220625.log', 'process_timestamp': '20220625143157', 'path': 'driver.json'}
+06/25/2022 02:31:57 PM INFO :Creating Database connection
+06/25/2022 02:31:57 PM INFO :Connection Successful
+06/25/2022 02:31:58 PM INFO :The data is inserted into the database
+06/25/2022 02:31:58 PM INFO :Creating Database connection for master
+06/25/2022 02:40:15 PM INFO :{'database': {'host': 'localhost', 'user': 'MinerLeague', 'password': 'MinerLeague', 'port': '27017', 'db': 'mongodb'}, 'execution_type': 'parallel', 'log_file': '/Users/MEETHU/Desktop/LinkedInProject/logs/etlprocess_20220625.log', 'process_timestamp': '20220625144015', 'path': 'driver.json'}
+06/25/2022 02:40:15 PM INFO :Creating Database connection
+06/25/2022 02:40:15 PM INFO :Connection Successful
+06/25/2022 02:40:15 PM INFO :The data is inserted into the database
+06/25/2022 02:40:15 PM INFO :Creating Database connection for master
+06/25/2022 02:47:05 PM INFO :{'database': {'host': 'localhost', 'user': 'MinerLeague', 'password': 'MinerLeague', 'port': '27017', 'db': 'mongodb'}, 'execution_type': 'parallel', 'log_file': '/Users/MEETHU/Desktop/LinkedInProject/logs/etlprocess_20220625.log', 'process_timestamp': '20220625144705', 'path': 'driver.json'}
+06/25/2022 02:47:05 PM INFO :Creating Database connection
+06/25/2022 02:47:05 PM INFO :Connection Successful
+06/25/2022 02:47:05 PM INFO :The data is inserted into the database
+06/25/2022 02:47:05 PM INFO :Creating Database connection for master
+06/25/2022 02:48:28 PM INFO :{'database': {'host': 'localhost', 'user': 'MinerLeague', 'password': 'MinerLeague', 'port': '27017', 'db': 'mongodb'}, 'execution_type': 'parallel', 'log_file': '/Users/MEETHU/Desktop/LinkedInProject/logs/etlprocess_20220625.log', 'process_timestamp': '20220625144828', 'path': 'driver.json'}
+06/25/2022 02:48:28 PM INFO :Creating Database connection
+06/25/2022 02:48:28 PM INFO :Connection Successful
+06/25/2022 02:48:28 PM INFO :The data is inserted into the database
+06/25/2022 02:48:28 PM INFO :Creating Database connection for master
+06/25/2022 03:10:18 PM INFO :{'database': {'host': 'localhost', 'user': 'MinerLeague', 'password': 'MinerLeague', 'port': '27017', 'db': 'mongodb'}, 'execution_type': 'parallel', 'log_file': 'C:/Users/MEETHU/Desktop/LinkedInProject/logs/etlprocess_20220625.log', 'process_timestamp': '20220625151018', 'path': 'driver.json'}
+06/25/2022 03:10:18 PM INFO :Creating Database connection
+06/25/2022 03:10:18 PM INFO :Connection Successful
+06/25/2022 03:10:18 PM INFO :The data is inserted into the database
+06/25/2022 03:10:18 PM INFO :Creating Database connection for master
+06/25/2022 03:11:00 PM INFO :{'database': {'host': 'localhost', 'user': 'MinerLeague', 'password': 'MinerLeague', 'port': '27017', 'db': 'mongodb'}, 'execution_type': 'parallel', 'log_file': 'C:/Users/MEETHU/Desktop/LinkedInProject/logs/etlprocess_20220625.log', 'process_timestamp': '20220625151100', 'path': 'driver.json'}
+06/25/2022 03:11:00 PM INFO :Creating Database connection
+06/25/2022 03:11:00 PM INFO :Connection Successful
+06/25/2022 03:11:01 PM INFO :The data is inserted into the database
+06/25/2022 03:11:01 PM INFO :Creating Database connection for master
+06/25/2022 03:11:38 PM INFO :{'database': {'host': 'localhost', 'user': 'MinerLeague', 'password': 'MinerLeague', 'port': '27017', 'db': 'mongodb'}, 'execution_type': 'parallel', 'log_file': 'C:/Users/MEETHU/Desktop/LinkedInProject/logs/etlprocess_20220625.log', 'process_timestamp': '20220625151138', 'path': 'driver.json'}
+06/25/2022 03:11:38 PM INFO :Creating Database connection
+06/25/2022 03:11:38 PM INFO :Connection Successful
+06/25/2022 03:11:38 PM INFO :The data is inserted into the database
+06/25/2022 03:11:38 PM INFO :Creating Database connection for master
+06/25/2022 03:15:23 PM INFO :{'database': {'host': 'localhost', 'user': 'MinerLeague', 'password': 'MinerLeague', 'port': '27017', 'db': 'mongodb'}, 'execution_type': 'parallel', 'log_file': 'C:/Users/MEETHU/Desktop/LinkedInProject/logs/etlprocess_20220625.log', 'process_timestamp': '20220625151523', 'path': 'driver.json'}
+06/25/2022 03:15:23 PM INFO :Creating Database connection
+06/25/2022 03:15:23 PM INFO :Connection Successful
+06/25/2022 03:15:23 PM INFO :The data is inserted into the database
+06/25/2022 03:15:23 PM INFO :Creating Database connection for master
+06/25/2022 03:16:00 PM INFO :{'database': {'host': 'localhost', 'user': 'MinerLeague', 'password': 'MinerLeague', 'port': '27017', 'db': 'mongodb'}, 'execution_type': 'parallel', 'log_file': 'C:/Users/MEETHU/Desktop/LinkedInProject/logs/etlprocess_20220625.log', 'process_timestamp': '20220625151600', 'path': 'driver.json'}
+06/25/2022 03:16:00 PM INFO :Creating Database connection
+06/25/2022 03:16:00 PM INFO :Connection Successful
+06/25/2022 03:16:00 PM INFO :The data is inserted into the database
+06/25/2022 03:16:00 PM INFO :Creating Database connection for master
+06/25/2022 04:28:19 PM INFO :{'database': {'host': 'localhost', 'user': 'MinerLeague', 'password': 'MinerLeague', 'port': '27017', 'db': 'mongodb'}, 'execution_type': 'parallel', 'log_file': '/Users/MEETHU/Desktop/LinkedInProject/logs/etlprocess_20220625.log', 'process_timestamp': '20220625162818', 'path': 'driver.json'}
+06/25/2022 04:28:19 PM INFO :Creating Database connection
+06/25/2022 04:28:19 PM INFO :Connection Successful
+06/25/2022 04:31:13 PM INFO :{'database': {'host': 'localhost', 'user': 'MinerLeague', 'password': 'MinerLeague', 'port': '27017', 'db': 'mongodb'}, 'execution_type': 'parallel', 'log_file': '/Users/MEETHU/Desktop/LinkedInProject/logs/etlprocess_20220625.log', 'process_timestamp': '20220625163113', 'path': 'driver.json'}
+06/25/2022 04:31:13 PM INFO :Creating Database connection
+06/25/2022 04:31:13 PM INFO :Connection Successful
+06/25/2022 04:31:13 PM INFO :The data is inserted into the database
+06/25/2022 04:31:13 PM INFO :Creating Database connection for master

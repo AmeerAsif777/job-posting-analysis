@@ -1,0 +1,5 @@
+02/28/2022 10:52:48 AM INFO :{'database': {'host': 'localhost', 'user': 'Vijeta109', 'password': 'Vijeta123', 'port': '27017', 'db': 'mongodb'}, 'execution_type': 'parallel', 'log_file': '/Users/vijetavamannayak/LinkedInProject/logs/etlprocess_20220228.log', 'process_timestamp': '20220228105248', 'config_file': '/Users/vijetavamannayak/LinkedInProject/scripts/driver/driver.json'}
+02/28/2022 10:52:48 AM INFO :Process Completed
+02/28/2022 11:09:12 AM INFO :{'database': {'host': 'localhost', 'user': 'Vijeta109', 'password': 'Vijeta123', 'port': '27017', 'db': 'mongodb'}, 'execution_type': 'parallel', 'log_file': '/Users/vijetavamannayak/LinkedInProject/logs/etlprocess_20220228.log', 'process_timestamp': '20220228110912', 'config_file': '/Users/vijetavamannayak/LinkedInProject/scripts/driver/driver.json'}
+02/28/2022 11:09:12 AM INFO :Process Completed
+02/28/2022 11:09:12 AM INFO :Connection Successful
